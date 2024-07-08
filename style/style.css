@@ -203,6 +203,32 @@ nav ul li a:hover {
   display: flex;
   justify-content: center;
 }
+
+/* footer style  */
+.footer{
+  padding:80px 10%;
+}
+.footer-container{
+  display: flex;
+  gap:40px;
+}
+.footer-colum-title{
+  margin:10px 0px 20px 0px;
+}
+.footer-colum p {
+  margin: 20px 0pc;
+}
+.footer-colum{
+  flex: 1;
+}
+.footer-colum input, .footer-colum textarea{
+  display: inline-block;
+  width: 100%;
+  margin:10px 0px;
+  border: none;
+  padding:10px;
+  border-radius: 5px;
+}
 @media screen and (max-width: 900px) {
   .baner {
     margin-top: 50px;
